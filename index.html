@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+        <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<script>
+    window.onload = window.onresize = function(){
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+    }
+</script>
+    </head>
+    <body>
+    	<div class="box">
+    		<img src="img/标题.jpg">
+
+    		<div class="biaodan">
+
+    		<form action="">
+    		<div class="biao"><span class="iconfont">&#xe623;</span><input class="biaodan1" type="text" value="E-mail address"><br>
+    		</div>
+    		<div class="biao">
+    		<span class="iconfont">&#xe636;</span><input class="biaodan1 biaodan2" type="password" value="******"><br>
+    		</div>
+    		<input class="anniu" type="button" value="Login">
+    		</form>
+    		<p>Forgot password?</p>
+    		</div>
+    		<div class="bottom">
+    			<h2>Login with facebook</h2>
+    			<a href="">Sign UP For Freebee</a>
+    		</div>
+    		
+    	</div>
+    </body>
+</html>

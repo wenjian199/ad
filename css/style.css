@@ -1,0 +1,73 @@
+@charset "utf-8";
+.box{
+	width:16rem;
+	height:28.4rem;
+	background-color:#85D2C5;
+	position:relative;
+}
+.box img{
+	width:6.3rem;
+	height:2.275rem;
+	margin-left:4.75rem;
+	margin-top:4.875rem;
+}
+.box .biaodan{
+	color:#fff;
+	margin-left:2.5rem;
+	margin-top:2.875rem;
+	width:11.25rem;
+	font-size:0px;
+}
+.box .biao{
+		border-bottom:1px solid #78BDB2;
+		line-height:0.75rem;
+		font-size:0.75rem;
+		padding-bottom:0.65rem;
+}
+.box .biaodan1{
+	margin-left:1rem;
+}
+.box .biaodan2{
+	margin-top:1.875rem;
+}
+.box .anniu{
+	font-size:0.75rem;
+	width:8.375rem;
+	height:1.85rem;
+	background-color:#6F5D75;
+	margin-left:1.8rem;
+	margin-top:1.5rem;
+}
+.box p{
+	font-size:0.6rem;
+	text-align:center;
+	margin-top:1.075rem;
+}
+.box .bottom{
+	margin-top:3.4rem;
+	height:5rem;
+	background-color:rgba(0, 0, 0, 0.3);
+	position:relative;
+}
+.box .bottom h2{
+	width:8.3rem;
+	height:1.65rem;
+	border:1px solid #fff;
+	font-size:0.65rem;
+	font-weight:normal;
+	text-align:center;
+	line-height:1.65rem;
+	color:#fff;
+	margin-left:3.8rem;
+	position:absolute;
+	top:1.05rem;
+}
+.box .bottom a{
+	width:6.425rem;
+	color:#fff;
+	font-size:0.65rem;
+	position:absolute;
+	top:3.55rem;
+	left:5.085rem;
+	border-bottom:1px solid #fff;
+}
